@@ -3,7 +3,7 @@
 
 这是我的文章[「Spring Cloud与微服务学习笔记-注册与发现」]()对应的工程代码。
 
-这个工程演示了最基本的单实例服务注册和发现，工程跟模块下分为三个子模块：eureka-server、service-a和service-b，分别是eureka服务器和两个客户端。
+这个工程演示了多实例服务注册和发现，工程跟模块下分为三个子模块：eureka-server、service-a和service-b，分别是eureka服务器和两个客户端。
 
 项目结构：
 ```
@@ -11,6 +11,8 @@
 ├── LICENSE
 ├── README.md
 ├── build.gradle
+├── config
+│   └── hosts
 ├── eureka-server
 │   ├── build
 │   │   └── classes
