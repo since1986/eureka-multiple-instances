@@ -1,0 +1,5 @@
+rootProject.name = 'eureka-multiple-instances'
+include 'eureka-server'
+include 'service-a'
+include 'service-b'
+
